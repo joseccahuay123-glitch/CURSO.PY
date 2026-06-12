@@ -37,7 +37,21 @@ frutas :list[str]=['🍏','🍐','🍑','🍒']
 print(frutas[2])
 # acceder al cegundo elemto por su indice negativo
 print(frutas[-3])
+```
+
+```python
 # acceder por rango
+Para extraer varios elementos contiguos, indica los indices por dos puntos.
+
+print(frutas[])
+
+# Buscar
+## este metodo permite uvicar a traves del valor el primer elemento (la primera considencia) dentro de una lista, este metodo es index
+amantes:list[str]=['chapo','cristian','emerson','victor']
+buscar:int=amantes.index("victor")#retora un indice si exsiste 3
+amantes[buscar]
+## busqueda por pertenencia
+existe:bool="chapo" in amantes
 ```
 
 ## diccionarios
